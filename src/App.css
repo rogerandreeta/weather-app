@@ -1,0 +1,41 @@
+
+.App {
+  text-align: center;
+  color: #fff;
+  min-height:100%;
+}
+
+.search-field{
+  background-color: rgb(168 205 245 / 50%) !important;
+  border: 1px solid rgb(168 205 245 / 20%);
+  color:#fff !important;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #fff;
+}
+
+.search-btn{
+  background-color: #004590 !important;
+  border: #004590;
+  color:#fff !important;
+  padding:3px 10px
+}
+
+.first, .second{ background-color:rgba(0,0,0,0.1)}
+.second { text-align:left; padding-bottom:120px;}
+
+.main-temp{font-size:8rem;}
+
+.divisor{border-bottom: 1px solid white; padding-bottom:20px}
+
+.result{
+  font-size: 2em;
+  font-weight: 500;
+}
+
+.mt-minus-25{margin-top:-25px;}
+
+@media only screen and (max-width: 576px) {
+  .col-xs-6 {width: 50% !important}
+}
